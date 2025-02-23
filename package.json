@@ -1,0 +1,45 @@
+{
+  "name": "cpaston-travel-app(project)",
+  "version": "1.0.0",
+  "description": "The Travel Planner App is a web-based application that helps users plan their trips by providing essential information such as weather forecasts and images of their travel destinations. The application integrates multiple APIs to fetch geolocation data, weather details, and relevant images for the destination. It is built using JavaScript and runs in a Webpack environment with an Express server and service workers for offline capabilities.",
+  "main": "src/server/server.js",
+  "scripts": {
+    "start": "node src/server/server.js",
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Ali aburas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^9.2.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^29.7.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.85.0",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0",
+    "webpack-merge": "^6.0.1",
+    "workbox-webpack-plugin": "^7.3.0"
+  }
+}
